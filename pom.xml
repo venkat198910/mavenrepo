@@ -25,6 +25,14 @@
       </plugin>
     </plugins>
   </build>
+  <properties>
+		<spring.version>5.0.7.RELEASE</spring.version>
+		<junit.version>4.12</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://13.235.0.194:9000/</sonar.host.url>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
    <distributionManagement>
         <repository>
             <id>deployment</id>
